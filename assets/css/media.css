@@ -1,0 +1,41 @@
+/*Media Query For Header BG-Video*/
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(polina.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+	div.team-container {
+		width: 1550px;
+	}
+}
+@media (max-width: 768px) {
+    div.slider-discription-text div.col-sm-4{
+      margin-left: 15px;
+    }
+    div.col-sm-3.price-body-colum {
+        margin-top: 30px;
+    }
+    div.ContuctForm {
+        width: 100%;
+    }
+    input, textarea.comon-input {
+        width: 100%;
+    }
+    div.footer-about-us, div.footer-useful-link, div.footer-trail-sign, div.footer-contact-us {
+        margin-top: 30px;
+    }
+    li.useful-link-list {
+        text-align: center;
+    }
+    li.contact-list {
+        text-align: center;
+    }
+    ul.navbar-right {
+        margin-top: -15px;
+        float: right;
+    }
+}
